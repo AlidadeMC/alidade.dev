@@ -1,0 +1,10 @@
+:root {
+    --bs-primary: #11c616 !important;
+    --bs-primary-rgb: 17, 198, 22 !important;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
