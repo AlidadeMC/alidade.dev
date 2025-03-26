@@ -18,11 +18,16 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <body class="bg-yellow-200">
+    <nav class="navbar navbar-expand-lg bg-yellow-200" data-bs-theme="light">
       <div class="container container-fluid">
-        <a class="navbar-brand" href="#"><b>Alidade</b></a>
+        <a class="navbar" href="#">
+          <img src="./logomark.svg" alt="Alidade" class="navbar-logomark"/>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,22 +42,17 @@
         </div>
       </div>
     </nav>
-    <main>
-      <div class="container">
-        <div class="alert alert-warning mt-4" role="alert">
-          Alidade and this website are still a work in progress.
-        </div>
-      </div>
+    <main class="bg-yellow-200">
       <div class="container-fluid py-5">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1 class="fw-bold fs-2">Your world maps, at your fingertips</h1>
+              <h1 class="fw-bold fs-2 fg-red-600">Your world maps, at your fingertips</h1>
               <p class="fs-5">
                 Navigate and explore your Minecraft Java worlds across Mac, iPhone, and iPad. Quickly locate nearby structures and biomes with a search.
                 And pin your favorite or most memorable locations with photos, descriptions, and more.
               </p>
-              <button class="btn btn-primary btn-lg" type="button" disabled>Coming soon</button>
+              <button class="btn btn-brand btn-lg" type="button" disabled>Coming soon</button>
               <p class="text-secondary mt-2"><small>Available for macOS Sequoia, iOS 18, and iPadOS 18 or later.</small></p>
             </div>
             <div class="col-md-6">
@@ -64,22 +64,22 @@
       <div class="container px-4 py-5" id="featured-3">
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em" fill="currentColor"><use xlink:href="bootstrap-icons.svg#apple"/></svg>
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+              <svg class="bi" width="2em" height="2em" fill="var(--red-600)"><use xlink:href="bootstrap-icons.svg#apple"/></svg>
             </div>
             <h3 class="fs-2 text-body-emphasis">A fully native experience</h3>
             <p>Alidade is designed to be a fully native app that works well across your Mac, iPhone, and iPad. Use Continuity to pick up where you left off, leverage your Photos library, and enjoy a blazingly fast experience.</p>
           </div>
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em" fill="currentColor"><use xlink:href="bootstrap-icons.svg#file-earmark"/></svg>
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+              <svg class="bi" width="2em" height="2em" fill="var(--red-600)"><use xlink:href="bootstrap-icons.svg#file-earmark"/></svg>
             </div>
             <h3 class="fs-2 text-body-emphasis">File support</h3>
             <p>Alidade stores your Minecraft worlds as files that you can easily work with. Save them to your device, move them to iCloud Drive, or place them wherever you like. And even share them with your friends easily.</p>
           </div>
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em" fill="currentColor"><use xlink:href="bootstrap-icons.svg#geo"/></svg>
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+              <svg class="bi" width="2em" height="2em" fill="var(--red-600)"><use xlink:href="bootstrap-icons.svg#geo"/></svg>
             </div>
             <h3 class="fs-2 text-body-emphasis">Customizable pins</h3>
             <p>Pin your favorite or frequently visited locations easily. Give them a color and name, add screenshots from your world, and write descriptions that best work for you.</p>
@@ -87,7 +87,7 @@
         </div>
       </div>
     </main>
-    <footer class="py-3 my-4">
+    <footer class="py-4 bg-yellow-200">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="https://alidade.dev" class="nav-link px-2 text-body-secondary">Home</a></li>
         <li class="nav-item"><a href="https://github.com/alicerunsonfedora/mcmaps" class="nav-link px-2 text-body-secondary">Source Code</a></li>

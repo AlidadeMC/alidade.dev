@@ -1,0 +1,107 @@
+/*
+ * Alidade Primitives
+ * Created with ColorSlurp
+ */
+:root, .alidade-primitives {
+    --red-100: #ffddd6;
+    --red-200: #ffbaae;
+    --red-300: #ff9685;
+    --red-400: #fe6f5b;
+    --red-500: #bd5244;
+    --red-600: #80342a;
+    --red-700: #461a14;
+    --red-800: #160402;
+    --orange-100: #ffe6dc;
+    --orange-200: #ffcdb7;
+    --orange-300: #fcb392;
+    --orange-400: #f8996d;
+    --orange-500: #b8704f;
+    --orange-600: #7c4a33;
+    --orange-700: #45271a;
+    --orange-800: #150804;
+    --yellow-100: #fcf3e7;
+    --yellow-200: #f7e6cf;
+    --yellow-300: #f3dbb7;
+    --yellow-400: #efcf9f;
+    --yellow-500: #b19975;
+    --yellow-600: #78674d;
+    --yellow-700: #423829;
+    --yellow-800: #141009;
+    --green-100: #dde8dc;
+    --green-200: #bbd1ba;
+    --green-300: #9aba99;
+    --green-400: #7aa479;
+    --green-500: #597958;
+    --green-600: #3b5039;
+    --green-700: #1d2b1d;
+    --green-800: #050a05;
+    --blue-100: #cddfe8;
+    --blue-200: #9bbdd1;
+    --blue-300: #6a9db9;
+    --blue-400: #357ca0;
+    --blue-500: #245b77;
+    --blue-600: #153b4f;
+    --blue-700: #071e2a;
+    --blue-800: #010509;
+    --purple-100: #d4c8d1;
+    --purple-200: #aa94a2;
+    --purple-300: #826377;
+    --purple-400: #5a354e;
+    --purple-500: #412538;
+    --purple-600: #291523;
+    --purple-700: #13080f;
+    --purple-800: #030102;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+    :root, .alidade-primitives {
+        --red-100: color(display-p3 0.998 0.866 0.838 / 1.0);
+        --red-200: color(display-p3 1.0 0.73 0.684 / 1.0);
+        --red-300: color(display-p3 1.0 0.588 0.523 / 1.0);
+        --red-400: color(display-p3 0.998 0.437 0.359 / 1.0);
+        --red-500: color(display-p3 0.742 0.32 0.265 / 1.0);
+        --red-600: color(display-p3 0.503 0.206 0.165 / 1.0);
+        --red-700: color(display-p3 0.276 0.104 0.077 / 1.0);
+        --red-800: color(display-p3 0.088 0.017 0.01 / 1.0);
+        --orange-100: color(display-p3 1.0 0.902 0.861 / 1.0);
+        --orange-200: color(display-p3 1.0 0.804 0.717 / 1.0);
+        --orange-300: color(display-p3 0.988 0.702 0.571 / 1.0);
+        --orange-400: color(display-p3 0.974 0.598 0.427 / 1.0);
+        --orange-500: color(display-p3 0.722 0.438 0.309 / 1.0);
+        --orange-600: color(display-p3 0.486 0.289 0.199 / 1.0);
+        --orange-700: color(display-p3 0.272 0.151 0.1 / 1.0);
+        --orange-800: color(display-p3 0.081 0.033 0.017 / 1.0);
+        --yellow-100: color(display-p3 0.986 0.952 0.905 / 1.0);
+        --yellow-200: color(display-p3 0.968 0.904 0.814 / 1.0);
+        --yellow-300: color(display-p3 0.953 0.859 0.717 / 1.0);
+        --yellow-400: color(display-p3 0.939 0.811 0.624 / 1.0);
+        --yellow-500: color(display-p3 0.694 0.601 0.457 / 1.0);
+        --yellow-600: color(display-p3 0.469 0.406 0.301 / 1.0);
+        --yellow-700: color(display-p3 0.257 0.218 0.162 / 1.0);
+        --yellow-800: color(display-p3 0.077 0.062 0.036 / 1.0);
+        --green-100: color(display-p3 0.866 0.911 0.863 / 1.0);
+        --green-200: color(display-p3 0.733 0.818 0.73 / 1.0);
+        --green-300: color(display-p3 0.602 0.729 0.601 / 1.0);
+        --green-400: color(display-p3 0.48 0.644 0.475 / 1.0);
+        --green-500: color(display-p3 0.351 0.474 0.346 / 1.0);
+        --green-600: color(display-p3 0.23 0.312 0.224 / 1.0);
+        --green-700: color(display-p3 0.114 0.17 0.113 / 1.0);
+        --green-800: color(display-p3 0.02 0.04 0.018 / 1.0);
+        --blue-100: color(display-p3 0.803 0.873 0.91 / 1.0);
+        --blue-200: color(display-p3 0.609 0.741 0.82 / 1.0);
+        --blue-300: color(display-p3 0.414 0.617 0.725 / 1.0);
+        --blue-400: color(display-p3 0.208 0.485 0.629 / 1.0);
+        --blue-500: color(display-p3 0.141 0.358 0.465 / 1.0);
+        --blue-600: color(display-p3 0.081 0.231 0.309 / 1.0);
+        --blue-700: color(display-p3 0.028 0.116 0.165 / 1.0);
+        --blue-800: color(display-p3 0.005 0.02 0.037 / 1.0);
+        --purple-100: color(display-p3 0.832 0.783 0.818 / 1.0);
+        --purple-200: color(display-p3 0.665 0.581 0.634 / 1.0);
+        --purple-300: color(display-p3 0.509 0.387 0.467 / 1.0);
+        --purple-400: color(display-p3 0.354 0.209 0.307 / 1.0);
+        --purple-500: color(display-p3 0.255 0.144 0.22 / 1.0);
+        --purple-600: color(display-p3 0.16 0.083 0.136 / 1.0);
+        --purple-700: color(display-p3 0.073 0.03 0.06 / 1.0);
+        --purple-800: color(display-p3 0.014 0.004 0.008 / 1.0);
+    }
+}
