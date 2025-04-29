@@ -17,6 +17,7 @@ body {
 
 .btn.btn-brand {
     --bs-btn-bg: var(--red-400);
+    --bs-btn-color: #020408;
     --bs-btn-border-color: var(--red-500);
 }
 
