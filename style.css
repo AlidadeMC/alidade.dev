@@ -21,6 +21,10 @@ body {
     --bs-btn-border-color: var(--red-500);
 }
 
+.btn.btn-app-store {
+    height: 64px;
+}
+
 .navbar-logomark {
     height: 2rem;
 }
