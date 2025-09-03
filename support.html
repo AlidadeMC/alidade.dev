@@ -10,9 +10,10 @@
     <meta property="og:title" content="Alidade">
     <meta property="og:description" content="Navigate and explore your Minecraft Java worlds on Mac, iPhone, and iPad.">
     <meta property="og:url" content="https://alidade.dev/">
-    <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link href="./bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./bootstrap.bundle.min.js"></script>
     <script src="./bootstrap.bundle.min.js"></script>
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -24,17 +25,17 @@
   </head>
   <body class="bg-yellow-200">
     <nav class="navbar navbar-expand-lg bg-yellow-200" data-bs-theme="light">
-      <div class="container container-fluid">
-        <a class="navbar" href="#">
-          <img src="./logomark.svg" alt="Alidade" class="navbar-logomark"/>
-        </a>
+    <div class="container container-fluid">
+      <a class="navbar" href="./index.html">
+        <img src="./logomark.svg" alt="Alidade" class="navbar-logomark"/>
+      </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="d-flex">
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="https://github.com/alicerunsonfedora/mcmaps">Source Code</a>
               <a class="nav-link" href="https://docs.alidade.dev">Docs</a>
               <a class="nav-link" href="./support.html">Support</a>
@@ -44,56 +45,19 @@
       </div>
     </nav>
     <main class="bg-yellow-200">
-      <div class="container-fluid py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h1 class="fw-bold fs-2 fg-red-600">Your world maps, at your fingertips</h1>
-              <p class="fs-5">
-                Navigate and explore your Minecraft Java worlds across Mac, iPhone, and iPad. Quickly locate nearby structures and biomes with a search.
-                And pin your favorite or most memorable locations with photos, descriptions, and more.
-              </p>
-              <a href="https://apps.apple.com/us/app/alidade/id6741483898"><img class="btn btn-app-store" src="appstore.svg" alt="Download on the App Store"/></a>
-              <a class="btn btn-brand btn-lg" href="https://marquiskurt.itch.io/alidade">Download on Itch</a>
-              <p class="text-secondary mt-2">
-                <small>
-                  Available for macOS Sequoia, iOS 18, and iPadOS 18 or later.
-                </small>
-              </p>
-            </div>
-            <div class="col-md-6">
-              <img src="jumbo.png" class="img-fluid" alt="Screenshot of the Alidade app on Mac"/>
-            </div>
-          <div>
-        </div>
-      </div>
       <div class="container px-4 py-5" id="featured-3">
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-              <svg class="bi" width="2em" height="2em" fill="var(--red-600)"><use xlink:href="bootstrap-icons.svg#apple"/></svg>
-            </div>
-            <h3 class="fs-2 text-body-emphasis">A fully native experience</h3>
-            <p>Alidade is designed to be a fully native app that works well across your Mac, iPhone, and iPad. Use Continuity to pick up where you left off, leverage your Photos library, and enjoy a blazingly fast experience.</p>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-              <svg class="bi" width="2em" height="2em" fill="var(--red-600)"><use xlink:href="bootstrap-icons.svg#file-earmark"/></svg>
-            </div>
-            <h3 class="fs-2 text-body-emphasis">File support</h3>
-            <p>Alidade stores your Minecraft worlds as files that you can easily work with. Save them to your device, move them to iCloud Drive, or place them wherever you like. And even share them with your friends easily.</p>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-              <svg class="bi" width="2em" height="2em" fill="var(--red-600)"><use xlink:href="bootstrap-icons.svg#geo"/></svg>
-            </div>
-            <h3 class="fs-2 text-body-emphasis">Customizable pins</h3>
-            <p>Pin your favorite or frequently visited locations easily. Give them a color and name, add screenshots from your world, and write descriptions that best work for you.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid py-2">
-        
+        <h1>Get Help and Support</h1>
+        <p>This document provides resources for help using Alidade.</p>
+        <br/>
+        <h2>Read the help guides</h2>
+        <p>Alidade provides a help guide through the <b>Help</b> menu on iPadOS and macOS, and it can be accessed through the project's documentation.</p>
+        <p><a href="https://docs.alidade.dev/documentation/alidade/userguide">Read the help guide &rsaquo;</a></p>
+        <br/>
+        <h2>File a report or request a feature</h2>
+        <p>Alidade is free and open-source software built by the community. You can use the links below to send a bug report or request a feature in our issue tracker.</p>
+        <p><a href="https://youtrack.marquiskurt.net/youtrack/newIssue?project=ALD&c=add+Board+Alidade+Kanban+Board">Send Alidade feedback &rsaquo;</a></p>
+        <p><a href="https://youtrack.marquiskurt.net/youtrack/projects/ALD">View Alidade issue tracker &rsaquo;</a></p>
+        <p><a href="https://youtrack.marquiskurt.net/youtrack/projects/CBK">View CubiomesKit issue tracker &rsaquo;</a></p>
       </div>
     </main>
     <footer class="px-5 py-4 bg-yellow-200">
